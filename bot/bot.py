@@ -824,7 +824,7 @@ async def post_init(application: Application):
 def run_bot() -> None:
     application = (
         ApplicationBuilder()
-        .token(config.telegram_token)
+        .token(config.tg_token)
         .concurrent_updates(True)
         .rate_limiter(AIORateLimiter(max_retries=5))
         .http_version("1.1")
