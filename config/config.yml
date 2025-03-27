@@ -6,3 +6,4 @@ enable_message_streaming: false
 allowed_telegram_usernames:
   - NikitaEgozha
   - Fit_curly
+new_dialog_timeout: 600
