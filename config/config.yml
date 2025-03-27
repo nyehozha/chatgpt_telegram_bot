@@ -7,3 +7,4 @@ allowed_telegram_usernames:
   - NikitaEgozha
   - Fit_curly
 new_dialog_timeout: 600
+use_mongo: true
