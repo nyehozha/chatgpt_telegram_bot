@@ -9,6 +9,7 @@ import openai
 
 # setup openai
 openai.api_key = config.openai_api_key
+openai.api_base = config.openai_api_base 
 if config.openai_api_base is not None:
     openai.api_base = config.openai_api_base
 logger = logging.getLogger(__name__)
