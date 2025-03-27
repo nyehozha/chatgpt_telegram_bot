@@ -8,4 +8,4 @@ allowed_telegram_usernames:
   - Fit_curly
 new_dialog_timeout: 600
 use_mongo: true
-mongodb_uri: "mongodb+srv://negozha:<vl3QKOOjhGNcYrU7>@cluster0.8tltm2s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+mongodb_uri: "mongodb+srv://negozha:vl3QKOOjhGNcYrU7@cluster0.8tltm2s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
