@@ -1,5 +1,5 @@
 tg_token: "8105869618:AAHWyL94ronqJY4KuNeq9105eZngOQFaCgo"
-openai_api_key: "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"
+openai_api_key: "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"
 use_chatgpt_api: true
 chatgpt_model: "gpt-4"
 enable_message_streaming: false
