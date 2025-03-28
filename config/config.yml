@@ -11,6 +11,6 @@ mongodb_uri: "mongodb+srv://negozha:vl3QKOOjhGNcYrU7@cluster0.8tltm2s.mongodb.ne
 chat_modes:
   assistant:
     name: 🤖 Assistant
-    welcome_message: "Hi! I'm your assistant!"
-    prompt_start: "You are a helpful assistant."
+    welcome_message: "Hi!"
+    prompt_start: "Hello."
     parse_mode: html
