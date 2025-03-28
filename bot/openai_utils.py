@@ -42,6 +42,7 @@ class ChatGPT:
                 if self.model in {"gpt-3.5-turbo-16k", "gpt-3.5-turbo", "gpt-4", "gpt-4o", "gpt-4-1106-preview", "gpt-4-vision-preview"}:
                     messages = self._generate_prompt_messages(message, dialog_messages, chat_mode)
 
+                    print("[DEBUG] Prompt length:", sum(len(str(m)) for m in messages))
                     r = await openai.ChatCompletion.acreate(
                         model=self.model,
                         messages=messages,
